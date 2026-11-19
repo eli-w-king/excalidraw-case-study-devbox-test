@@ -1,9 +1,34 @@
 {
-  "title": "",
-  "summary": "",
+  "title": "Four toolbar directions for Excalidraw",
+  "summary": "Compare four responses to the toolbar usability tests: fewer decisions, friendlier labels, faster access, or bigger touch targets. The original toolbar is still the default.",
   "favorite": "",
-  "variations": [],
+  "variations": [
+    {
+      "slug": "minimal",
+      "name": "Minimal and calm",
+      "idea": "Keep six sketching essentials in sight and tuck everything else behind More tools.",
+      "screenshot": "shots/minimal.png"
+    },
+    {
+      "slug": "playful",
+      "name": "Playful and expressive",
+      "idea": "A sticker-sheet sketch kit with color-coded tools that lift off the page when picked.",
+      "screenshot": "shots/playful.png"
+    },
+    {
+      "slug": "dense",
+      "name": "Dense for power users",
+      "idea": "Every tool in sight, with keyboard shortcuts on the buttons and a strip for frequent canvas actions.",
+      "screenshot": "shots/dense.png"
+    },
+    {
+      "slug": "touch",
+      "name": "Big and touch friendly",
+      "idea": "A thumb-height dock with big, labeled targets and an extra tray that opens upward.",
+      "screenshot": "shots/touch.png"
+    }
+  ],
   "video": null,
   "pr": null,
-  "updated": ""
+  "updated": "2026-11-19"
 }
