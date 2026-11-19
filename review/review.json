@@ -1,7 +1,7 @@
 {
   "title": "Four toolbar directions for Excalidraw",
-  "summary": "Compare four responses to the toolbar usability tests: fewer decisions, friendlier labels, faster access, or bigger touch targets. The original toolbar is still the default.",
-  "favorite": "",
+  "summary": "Compare four responses to the toolbar usability tests: fewer decisions, friendlier labels, faster access, or bigger touch targets. Playful and expressive is the default.",
+  "favorite": "playful",
   "variations": [
     {
       "slug": "minimal",
@@ -13,7 +13,8 @@
       "slug": "playful",
       "name": "Playful and expressive",
       "idea": "A sticker-sheet sketch kit with color-coded tools that lift off the page when picked.",
-      "screenshot": "shots/playful.png"
+      "screenshot": "shots/playful.png",
+      "why": "Visible labels and color-coded groups make tools easier to find while keeping Excalidraw's hand-drawn feel."
     },
     {
       "slug": "dense",
@@ -28,7 +29,16 @@
       "screenshot": "shots/touch.png"
     }
   ],
-  "video": null,
-  "pr": null,
+  "video": {
+    "src": "demo.mp4",
+    "captions": "demo.vtt",
+    "poster": "demo.jpg",
+    "title": "Draw a rectangle, ellipse, and arrow with the Playful toolbar"
+  },
+  "pr": {
+    "url": "https://github.com/eli-w-king/excalidraw-case-study-devbox-test/pull/1",
+    "title": "Make Playful the default and ship the toolbar lab",
+    "number": 1
+  },
   "updated": "2026-11-19"
 }
