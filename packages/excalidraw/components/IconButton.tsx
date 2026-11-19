@@ -186,8 +186,17 @@ export const IconButton = React.forwardRef(
         }}
         ref={innerRef}
       >
-        <div className="ToolIcon__icon">
+        <div
+          className={clsx("ToolIcon__icon", {
+            "ToolIcon__icon--labeled": props.showAriaLabel,
+          })}
+        >
           {props.icon}
+          {props.showAriaLabel && (
+            <span className="ToolIcon__toggle-label" aria-hidden="true">
+              {props["aria-label"]}
+            </span>
+          )}
           {props.keyBindingLabel && (
             <span className="ToolIcon__keybinding">
               {props.keyBindingLabel}

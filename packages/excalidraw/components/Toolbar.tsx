@@ -280,7 +280,7 @@ export const Toolbar = ({
           <FreedrawToolButton {...toolProps} />
         )}
         <TextToolButton {...toolProps} />
-        <StickyNoteToolButton {...toolProps} />
+        <StickyNoteToolButton {...toolProps} showLabel />
         <EraserToolButton {...toolProps} />
 
         <div
